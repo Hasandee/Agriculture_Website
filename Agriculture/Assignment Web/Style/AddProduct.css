@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../Images/img37.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+
+}
+
+.registration-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+.registration-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+
+}
+
+.registration-form p {
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+
+.registration-form input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.registration-form select {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.registration-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.registration-form button:hover {
+    color: red;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #df3218;
+}
+h2 {
+    color: #11100f;
+}
+
+table {
+    margin: auto;
+    width: auto;
+    box-shadow: -1px 12px 12px --6px rgba(0, 0, 0, 0.5);
+    background-color: rgb(242, 242, 246);
+
+}
+
+table,
+td,
+th {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    font-size: 18px;
+    color: chocolate;
+}
+
+th {
+    background-color: rgb(76, 126, 170);
+    color: rgb(22, 20, 20);
+    cursor: pointer;
+}
+
+textarea {
+    width: 300px;
+    height: 50px;
+}
+
+/* Define your custom button style */
+.update-button {
+    background-color: #4d9ef5;
+    /* Button background color */
+    color: #ffffff;
+    /* Text color */
+    border: none;
+    /* Remove the button border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px 20px;
+    /* Padding around the text */
+    cursor: pointer;
+    /* Show a hand cursor on hover */
+}
+
+.update-button:hover {
+    background-color: #204a63;
+    /* Darker color on hover */
+}

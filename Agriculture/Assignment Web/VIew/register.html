@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registraion Form</title>
+    <link rel="stylesheet" href="../Style/Register.css">
+
+</head>
+
+<body>
+    <div class="registration-form">
+        <h1>Registraion Form</Form>
+        </h1>
+        <form action="../Control/register.php" method="post">
+            <p>Full Name :</p>
+            <input type="text" name="fullname" placeholder="Full Name">
+            <p>User Name :</p>
+            <input type="text" name="username" placeholder="User Name">
+            <p>Email :</p>
+            <input type="email" name="email" placeholder="Email">
+            <p>Password :</p>
+            <input type="password" name="password" placeholder="Password">
+            <p>User Type :</p>
+
+            <select name="usertype">
+                <option value="Farmer">Farmer</option>
+                <option value="Field Officer">Field Officer</option>
+            </select>
+
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
